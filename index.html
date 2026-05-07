@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa;
+            background: linear-gradient(180deg, #ffffff 0%, #e6f4ff 100%);
+            min-height: 100vh;
         }
         .navbar-brand {
             font-weight: bold;
@@ -20,22 +21,26 @@
             color: #343a40;
         }
         .hero {
-            background: #e9ecef;
+            background: linear-gradient(180deg, #e9f7ff 0%, #e9ecef 100%);
             padding: 4rem 0;
             text-align: center;
+            border-bottom: 1px solid #ddeefb;
         }
         .hero h1 {
             font-size: 2.8rem;
             font-weight: 700;
-            color: #212529;
-        }
-        .hero p {
-            font-size: 1.3rem;
-            color: #495057;
+            color: #0b3d91;
         }
         .card {
             border: none;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            box-shadow: 0 6px 18px rgba(11,61,145,0.06);
+            border-radius: 10px;
+        }
+        .profile-card {
+            background: #ffffffcc;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(11,61,145,0.04);
         }
         .footer {
             background: #fff;
@@ -87,6 +92,54 @@
         </p>
     </section>
 
+    <!-- PI Profile (replaced with lab-focused information) -->
+    <section id="pi" class="container">
+        <h2 class="section-title">SIMLAB — Leadership & Contact</h2>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="profile-card text-center">
+                    <h5>Principal Investigator</h5>
+                    <p><strong>Prof. Bharath Shekar</strong></p>
+                    <p>bshekar [at] iitb [dot] ac [dot] in</p>
+                    <p>21, Department of Earth Sciences, IIT Bombay</p>
+                    <p>Phone: +91-22-2576 7296</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="profile-card">
+                    <h5>About SIMLAB</h5>
+                    <p>Seismic Imaging Laboratory (SIMLAB) at IIT Bombay conducts research in seismic imaging, waveform inversion, and data-driven geophysics to advance subsurface characterization and related applications.</p>
+
+                    <h6 class="mt-3">Mission & Focus</h6>
+                    <p>Develop robust computational and methodological tools for seismic imaging and inversion, integrating physics-based models with machine learning.</p>
+
+                    <h6 class="mt-3">Research Themes</h6>
+                    <ul>
+                        <li>Seismic imaging and high-resolution subsurface mapping</li>
+                        <li>Full waveform inversion and inverse problems</li>
+                        <li>Ambient noise tomography and near-surface characterization</li>
+                        <li>Physics-guided machine learning for geophysical data</li>
+                    </ul>
+
+                    <h6 class="mt-3">Opportunities</h6>
+                    <p>SIMLAB recruits research assistants and PhD candidates with strong programming and numerical skills (Python preferred). Interested applicants should contact the lab via email with CV and research interests.</p>
+
+                    <h6 class="mt-3">Publications & Resources</h6>
+                    <p>Selected publications and papers are available via the lab's publications page and ResearchGate. (Link to full publication list available on the Publications page.)</p>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="mt-4">Alumni & Career Outcomes</h5>
+        <ul>
+            <li>Kuldeep, PhD (2023) — Data Scientist, Abbott.</li>
+            <li>Mayur Nawal — Data Scientist, Liquidity Group, Dubai.</li>
+            <li>Divakar Vashisht — PhD student at Stanford University.</li>
+            <li>Megha Chakraborty — PhD student at Frankfurt Institute of Advanced Studies.</li>
+            <li>Abhishek Chauhan — Joined PhD (UQM Montero, Canada).</li>
+        </ul>
+    </section>
+
     <!-- Research Section -->
     <section id="research" class="container">
         <h2 class="section-title">Research</h2>
@@ -130,20 +183,61 @@
                     </div>
                 </div>
             </div>
-            <!-- Add more members as needed -->
             <div class="col-md-4 mb-3">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Dr. A. Researcher</h5>
-                        <p class="card-text">Postdoctoral Fellow</p>
+                        <h5 class="card-title">Haritha Reddy</h5>
+                        <p class="card-text">Post Doc, IIT Bombay</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shobhit Mishra</h5>
+                        <p class="card-text">PhD, IIT Bombay</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-3">
                 <div class="card h-100">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Ms. B. Student</h5>
-                        <p class="card-text">PhD Scholar</p>
+                        <h5 class="card-title">Akash Nair</h5>
+                        <p class="card-text">PhD, IIT Bombay</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rahul Sharma</h5>
+                        <p class="card-text">Research Assitant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Abhishek Chauhan</h5>
+                        <p class="card-text">MSc Student, IIT Bombay (now PhD, UQM Montero, Canada)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Priyanshu Sharma</h5>
+                        <p class="card-text">IIT Madras</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pragyant Bahera</h5>
+                        <p class="card-text">MTech Student</p>
                     </div>
                 </div>
             </div>
