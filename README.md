@@ -12,20 +12,20 @@ yarn dev
 ## Customize content
 
 ### 1) Update Current Work carousel
-- Open `/home/runner/work/simlab120.github.io/simlab120.github.io/src/App.jsx`
+- Open `src/App.jsx`
 - Edit the `workItems` array (image path, alt text, caption)
-- Add/replace image files inside `/home/runner/work/simlab120.github.io/simlab120.github.io/public/images/`
+- Add/replace image files inside `public/images/`
 
 ### 2) Update People section
-- In `/home/runner/work/simlab120.github.io/simlab120.github.io/src/App.jsx`, edit the `people` array
+- In `src/App.jsx`, edit the `people` array
   - `name`
   - `role`
   - `avatar`
   - `socials` links
-- Replace avatar images in `/home/runner/work/simlab120.github.io/simlab120.github.io/public/images/`
+- Replace avatar images in `public/images/`
 
 ### 3) Update social icons
-- SVG icons are stored in `/home/runner/work/simlab120.github.io/simlab120.github.io/public/images/`
+- SVG icons are stored in `public/images/`
 - Current placeholders:
   - `linkedin.svg`
   - `link.svg`
