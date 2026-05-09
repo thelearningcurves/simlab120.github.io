@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#EAF1FF"/><stop offset="1" stop-color="#D6E4FF"/></linearGradient></defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <path d="M40 390 C120 250, 220 540, 300 380 S480 250, 560 390 S720 520, 800 380 S980 250, 1160 390" fill="none" stroke="#4C6DD8" stroke-width="8"/>
+  <text x="60" y="90" font-family="DM Sans, Arial" font-size="44" fill="#1F2F6E">Placeholder Project 01</text>
+</svg>
