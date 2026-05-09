@@ -44,5 +44,7 @@ This builds the app and publishes `dist/` to `gh-pages` branch using the `gh-pag
 
 ## Notes
 - The Vite config auto-selects a GitHub Pages base path:
+  - This is automatic in GitHub Actions (where `GITHUB_REPOSITORY` is set).
+  - For local/manual project-page builds without that env var, default base is `/`; set `GITHUB_REPOSITORY=<owner>/<repo>` when building if needed.
   - `"/"` for `*.github.io` user/org sites
   - `"/<repo-name>/"` for project pages

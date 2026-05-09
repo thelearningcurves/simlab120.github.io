@@ -149,9 +149,9 @@ function App() {
           </div>
 
           <div className="dots" aria-hidden="true">
-            {workItems.map((item, index) => (
+            {workItems.map((_, index) => (
               <button
-                key={item.src}
+                key={index}
                 type="button"
                 className={index === activeSlide ? 'dot active' : 'dot'}
                 onClick={() => setActiveSlide(index)}
