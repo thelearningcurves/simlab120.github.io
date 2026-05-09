@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#EAFBF5"/><stop offset="1" stop-color="#D4F4E8"/></linearGradient></defs>
+  <rect width="1200" height="700" fill="url(#g3)"/>
+  <rect x="120" y="170" width="220" height="360" rx="18" fill="#8EDFC3"/>
+  <rect x="390" y="220" width="220" height="310" rx="18" fill="#4FC89C"/>
+  <rect x="660" y="270" width="220" height="260" rx="18" fill="#25A575"/>
+  <text x="60" y="90" font-family="DM Sans, Arial" font-size="44" fill="#1F5B48">Placeholder Project 03</text>
+</svg>

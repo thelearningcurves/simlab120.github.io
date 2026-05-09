@@ -1,1 +1,50 @@
-# simlab120.github.io
+# SIMLAB Homepage (React + Yarn + GitHub Pages)
+
+This repository is now a static React app powered by **Vite** and **Yarn**, ready to host on GitHub Pages.
+
+## Quick start
+
+```bash
+yarn install
+yarn dev
+```
+
+## Customize content
+
+### 1) Update Current Work carousel
+- Open `src/App.jsx`
+- Edit the `workItems` array (image path, alt text, caption)
+- Add/replace image files inside `public/images/`
+
+### 2) Update People section
+- In `src/App.jsx`, edit the `people` array
+  - `name`
+  - `role`
+  - `avatar`
+  - `socials` links
+- Replace avatar images in `public/images/`
+
+### 3) Update social icons
+- SVG icons are stored in `public/images/`
+- Current placeholders:
+  - `linkedin.svg`
+  - `link.svg`
+
+## GitHub Pages deployment
+
+### Option A: deploy with Yarn script
+```bash
+yarn deploy
+```
+This builds the app and publishes `dist/` to `gh-pages` branch using the `gh-pages` package.
+
+### Option B: GitHub Actions / Pages build
+- Build command: `yarn build`
+- Output directory: `dist`
+
+## Notes
+- The Vite config auto-selects a GitHub Pages base path:
+  - This is automatic in GitHub Actions (where `GITHUB_REPOSITORY` is set).
+  - For local/manual project-page builds without that env var, default base is `/`; set `GITHUB_REPOSITORY=<owner>/<repo>` when building if needed.
+  - `"/"` for `*.github.io` user/org sites
+  - `"/<repo-name>/"` for project pages
